@@ -7,7 +7,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 use function Castor\io;
 
-#[AsTask(description: 'Welcome to Castor!')]
+#[AsTask(description: 'Hello from foobar!')]
 function foobar(): void
 {
     io()->title('This is foobar!');
